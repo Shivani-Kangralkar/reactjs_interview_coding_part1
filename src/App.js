@@ -1,8 +1,9 @@
 
 
 import './App.css';
-import Star from './components/star-rating/Star';
+// import Star from './components/star-rating/Star';
 // import Accordian from './components/accordian/Accordian';
+import Timer from './components/countdowmTimer/Timer'
 
 
 
@@ -13,7 +14,10 @@ function App() {
       {/* <Accordian /> */}
 
       {/* Star Rating */}
-      <Star noOfStars ={10} />
+      {/* <Star noOfStars ={10} /> */}
+
+      {/* timer */}
+      <Timer />
     </div>
   );
 }
