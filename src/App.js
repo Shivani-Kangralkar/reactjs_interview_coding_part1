@@ -3,7 +3,8 @@
 import './App.css';
 // import Star from './components/star-rating/Star';
 // import Accordian from './components/accordian/Accordian';
-import Timer from './components/countdowmTimer/Timer'
+// import Timer from './components/countdowmTimer/Timer'
+import FilterProducts from './components/filterCategory/FilterProducts'
 
 
 
@@ -17,7 +18,10 @@ function App() {
       {/* <Star noOfStars ={10} /> */}
 
       {/* timer */}
-      <Timer />
+      {/* <Timer /> */}
+
+      {/* filter products */}
+      <FilterProducts />
     </div>
   );
 }
