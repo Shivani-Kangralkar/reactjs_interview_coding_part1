@@ -4,7 +4,8 @@ import './App.css';
 // import Star from './components/star-rating/Star';
 // import Accordian from './components/accordian/Accordian';
 // import Timer from './components/countdowmTimer/Timer'
-import FilterProducts from './components/filterCategory/FilterProducts'
+// import FilterProducts from './components/filterCategory/FilterProducts'
+import ModalTest from './components/custom-modal-popup/ModalTest'
 
 
 
@@ -21,7 +22,10 @@ function App() {
       {/* <Timer /> */}
 
       {/* filter products */}
-      <FilterProducts />
+      {/* <FilterProducts /> */}
+
+      {/* custom Pop up modal */}
+      <ModalTest />
     </div>
   );
 }
