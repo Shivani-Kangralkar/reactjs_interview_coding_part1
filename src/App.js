@@ -8,7 +8,8 @@ import './App.css';
 // import FilterProducts from './components/filterCategory/FilterProducts'
 // import ModalTest from './components/custom-modal-popup/ModalTest'
 // import LightDark from './components/light-dark-mode/LightDark';
-import TabParent from './components/custom-tabs/TabParent';
+// import TabParent from './components/custom-tabs/TabParent';
+import Scroll from './components/custom-scroll-indicator/Scroll';
 
 
 
@@ -34,7 +35,10 @@ function App() {
       {/* <LightDark/> */}
 
       {/* change tab content on tab click */}
-      <TabParent />
+      {/* <TabParent /> */}
+
+      {/* custome Scroll indicator */}
+      <Scroll url={"https://dummyjson.com/products?limit=100"}/>
     </div>
   );
 }
