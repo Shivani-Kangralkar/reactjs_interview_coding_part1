@@ -5,7 +5,8 @@ import './App.css';
 // import Accordian from './components/accordian/Accordian';
 // import Timer from './components/countdowmTimer/Timer'
 // import FilterProducts from './components/filterCategory/FilterProducts'
-import ModalTest from './components/custom-modal-popup/ModalTest'
+// import ModalTest from './components/custom-modal-popup/ModalTest'
+import LightDark from './components/light-dark-mode/LightDark';
 
 
 
@@ -25,7 +26,11 @@ function App() {
       {/* <FilterProducts /> */}
 
       {/* custom Pop up modal */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      {/* change theme "dark " "light" */}
+
+      <LightDark/>
     </div>
   );
 }
