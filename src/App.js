@@ -1,12 +1,14 @@
 
 
 import './App.css';
+
 // import Star from './components/star-rating/Star';
 // import Accordian from './components/accordian/Accordian';
 // import Timer from './components/countdowmTimer/Timer'
 // import FilterProducts from './components/filterCategory/FilterProducts'
 // import ModalTest from './components/custom-modal-popup/ModalTest'
-import LightDark from './components/light-dark-mode/LightDark';
+// import LightDark from './components/light-dark-mode/LightDark';
+import TabParent from './components/custom-tabs/TabParent';
 
 
 
@@ -29,8 +31,10 @@ function App() {
       {/* <ModalTest /> */}
 
       {/* change theme "dark " "light" */}
+      {/* <LightDark/> */}
 
-      <LightDark/>
+      {/* change tab content on tab click */}
+      <TabParent />
     </div>
   );
 }
