@@ -4,6 +4,8 @@ const useLocalStorage = (key, defaultValue) => {
     const [value,setValue] = useState(()=>{
 
         let currentValue;
+        // console.log("defaultValue", defaultValue);
+
 
         try{
             currentValue = JSON.parse(
@@ -14,6 +16,7 @@ const useLocalStorage = (key, defaultValue) => {
             console.log(error);
             currentValue = defaultValue;
         }
+        // console.log("currentValue",currentValue);
         return currentValue
     });
 
@@ -21,6 +24,7 @@ const useLocalStorage = (key, defaultValue) => {
         // local storage key value is stored in array of strings , [""]
         localStorage.setItem(key, JSON.stringify(value))
     },[key,value])
+
   return [value,setValue]
 }
 
