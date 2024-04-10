@@ -9,7 +9,9 @@ import './App.css';
 // import ModalTest from './components/custom-modal-popup/ModalTest'
 // import LightDark from './components/light-dark-mode/LightDark';
 // import TabParent from './components/custom-tabs/TabParent';
-import Scroll from './components/custom-scroll-indicator/Scroll';
+// import Scroll from './components/custom-scroll-indicator/Scroll';
+import TreeViewParent from './components/tree-view/TreeViewParent';
+import menus from "./components/tree-view/data"
 
 
 
@@ -38,7 +40,10 @@ function App() {
       {/* <TabParent /> */}
 
       {/* custome Scroll indicator */}
-      <Scroll url={"https://dummyjson.com/products?limit=100"}/>
+      {/* <Scroll url={"https://dummyjson.com/products?limit=100"}/> */}
+
+      {/* TreeView , recursive tree */}
+      <TreeViewParent menus={menus}/>
     </div>
   );
 }
