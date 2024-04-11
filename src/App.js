@@ -12,7 +12,8 @@ import './App.css';
 // import Scroll from './components/custom-scroll-indicator/Scroll';
 // import TreeViewParent from './components/tree-view/TreeViewParent';
 // import menus from "./components/tree-view/data"
-import WindowResize from './components/use-window-resize/WindowResize';
+// import WindowResize from './components/use-window-resize/WindowResize';
+import Pagination from './components/pagination/PaginationParent'
 
 
 
@@ -47,7 +48,10 @@ function App() {
       {/* <TreeViewParent menus={menus}/> */}
 
       {/* window resize */}
-      <WindowResize />
+      {/* <WindowResize /> */}
+
+      {/* Pagination */}
+      <Pagination/>
     </div>
   );
 }
