@@ -10,8 +10,9 @@ import './App.css';
 // import LightDark from './components/light-dark-mode/LightDark';
 // import TabParent from './components/custom-tabs/TabParent';
 // import Scroll from './components/custom-scroll-indicator/Scroll';
-import TreeViewParent from './components/tree-view/TreeViewParent';
-import menus from "./components/tree-view/data"
+// import TreeViewParent from './components/tree-view/TreeViewParent';
+// import menus from "./components/tree-view/data"
+import WindowResize from './components/use-window-resize/WindowResize';
 
 
 
@@ -43,7 +44,10 @@ function App() {
       {/* <Scroll url={"https://dummyjson.com/products?limit=100"}/> */}
 
       {/* TreeView , recursive tree */}
-      <TreeViewParent menus={menus}/>
+      {/* <TreeViewParent menus={menus}/> */}
+
+      {/* window resize */}
+      <WindowResize />
     </div>
   );
 }

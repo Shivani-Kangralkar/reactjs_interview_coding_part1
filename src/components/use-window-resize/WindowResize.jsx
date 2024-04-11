@@ -1,0 +1,17 @@
+import React from 'react'
+import useWindowResize from './useWindowResize'
+
+const WindowResize = () => {
+
+    const windowSize = useWindowResize();
+    const { width, height } = windowSize;
+  return (
+    <div>
+        <h1>Use Window resize hook</h1>
+        <p>Width is {width}</p>
+        <p>Height is {height}</p>     
+    </div>
+  )
+}
+
+export default WindowResize
