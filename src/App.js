@@ -2,6 +2,7 @@
 
 import './App.css';
 
+
 // import Star from './components/star-rating/Star';
 // import Accordian from './components/accordian/Accordian';
 // import Timer from './components/countdowmTimer/Timer'
@@ -13,7 +14,9 @@ import './App.css';
 // import TreeViewParent from './components/tree-view/TreeViewParent';
 // import menus from "./components/tree-view/data"
 // import WindowResize from './components/use-window-resize/WindowResize';
-import Pagination from './components/pagination/PaginationParent'
+// import Pagination from './components/pagination/PaginationParent'
+// import DigitalClock from './components/digital-clock/DigitalClock';
+import StepProgressBarParent from './components/step-progress-bar/StepProgressBarParent';
 
 
 
@@ -51,7 +54,13 @@ function App() {
       {/* <WindowResize /> */}
 
       {/* Pagination */}
-      <Pagination/>
+      {/* <Pagination/> */}
+
+      {/* Digital Clock */}
+      {/* <DigitalClock/> */}
+
+      {/* Step progress bar */}
+      <StepProgressBarParent/>
     </div>
   );
 }
