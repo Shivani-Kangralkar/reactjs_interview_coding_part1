@@ -16,7 +16,8 @@ import './App.css';
 // import WindowResize from './components/use-window-resize/WindowResize';
 // import Pagination from './components/pagination/PaginationParent'
 // import DigitalClock from './components/digital-clock/DigitalClock';
-import StepProgressBarParent from './components/step-progress-bar/StepProgressBarParent';
+// import StepProgressBarParent from './components/step-progress-bar/StepProgressBarParent';
+import ToolTipParent from './components/tool-tip/ToolTipParent';
 
 
 
@@ -60,7 +61,10 @@ function App() {
       {/* <DigitalClock/> */}
 
       {/* Step progress bar */}
-      <StepProgressBarParent/>
+      {/* <StepProgressBarParent/> */}
+
+      {/* ToolTip */}
+      <ToolTipParent/>
     </div>
   );
 }

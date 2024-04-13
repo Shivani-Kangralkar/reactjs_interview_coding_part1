@@ -8,6 +8,7 @@ const StepProgressBarParent = () => {
   return (
     <div className="step-progress-bar-container">
       <h1>Step progress bar</h1>
+      
       <StepProgressBarChild
         steps={steps}
         activeStep={activeStep}

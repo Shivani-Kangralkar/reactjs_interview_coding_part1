@@ -35,7 +35,7 @@ const StepProgressBarChild = ({steps,activeStep,setActiveStep}) => {
 
 
 
-        <div className='step-buttons-wrappers'>
+        <div className='step-buttons-wrapper'>
           <button
               onClick ={handlePrev}
               disabled={activeStep === 0}>
