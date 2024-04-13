@@ -17,7 +17,8 @@ import './App.css';
 // import Pagination from './components/pagination/PaginationParent'
 // import DigitalClock from './components/digital-clock/DigitalClock';
 // import StepProgressBarParent from './components/step-progress-bar/StepProgressBarParent';
-import ToolTipParent from './components/tool-tip/ToolTipParent';
+// import ToolTipParent from './components/tool-tip/ToolTipParent';
+import CurrencyConverter from './components/currency-converter/CurrencyConverter';
 
 
 
@@ -64,7 +65,10 @@ function App() {
       {/* <StepProgressBarParent/> */}
 
       {/* ToolTip */}
-      <ToolTipParent/>
+      {/* <ToolTipParent/> */}
+
+      {/* Currency Converter */}
+      <CurrencyConverter />
     </div>
   );
 }
