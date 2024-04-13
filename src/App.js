@@ -20,7 +20,8 @@ import './App.css';
 // import ToolTipParent from './components/tool-tip/ToolTipParent';
 // import CurrencyConverter from './components/currency-converter/CurrencyConverter';
 // import TipCalculator from './components/tip-calculator/TipCalculator';
-import MusicPlayer from './components/music-player/MusicPlayer';
+// import MusicPlayer from './components/music-player/MusicPlayer';
+import BmiCalculator from './components/bmi-calculator/BmiCalculator';
 
 
 
@@ -76,7 +77,10 @@ function App() {
       {/* <TipCalculator/> */}
 
       {/* Music Player */}
-      <MusicPlayer/>
+      {/* <MusicPlayer/> */}
+
+      {/* BmiCalculator */}
+      <BmiCalculator/>
     </div>
   );
 }
