@@ -18,7 +18,8 @@ import './App.css';
 // import DigitalClock from './components/digital-clock/DigitalClock';
 // import StepProgressBarParent from './components/step-progress-bar/StepProgressBarParent';
 // import ToolTipParent from './components/tool-tip/ToolTipParent';
-import CurrencyConverter from './components/currency-converter/CurrencyConverter';
+// import CurrencyConverter from './components/currency-converter/CurrencyConverter';
+import TipCalculator from './components/tip-calculator/TipCalculator';
 
 
 
@@ -68,7 +69,10 @@ function App() {
       {/* <ToolTipParent/> */}
 
       {/* Currency Converter */}
-      <CurrencyConverter />
+      {/* <CurrencyConverter /> */}
+
+      {/* TipCalculator */}
+      <TipCalculator/>
     </div>
   );
 }
