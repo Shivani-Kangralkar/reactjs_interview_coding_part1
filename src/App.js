@@ -19,7 +19,8 @@ import './App.css';
 // import StepProgressBarParent from './components/step-progress-bar/StepProgressBarParent';
 // import ToolTipParent from './components/tool-tip/ToolTipParent';
 // import CurrencyConverter from './components/currency-converter/CurrencyConverter';
-import TipCalculator from './components/tip-calculator/TipCalculator';
+// import TipCalculator from './components/tip-calculator/TipCalculator';
+import MusicPlayer from './components/music-player/MusicPlayer';
 
 
 
@@ -72,7 +73,10 @@ function App() {
       {/* <CurrencyConverter /> */}
 
       {/* TipCalculator */}
-      <TipCalculator/>
+      {/* <TipCalculator/> */}
+
+      {/* Music Player */}
+      <MusicPlayer/>
     </div>
   );
 }
