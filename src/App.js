@@ -21,7 +21,8 @@ import './App.css';
 // import CurrencyConverter from './components/currency-converter/CurrencyConverter';
 // import TipCalculator from './components/tip-calculator/TipCalculator';
 // import MusicPlayer from './components/music-player/MusicPlayer';
-import BmiCalculator from './components/bmi-calculator/BmiCalculator';
+// import BmiCalculator from './components/bmi-calculator/BmiCalculator';
+import DragDrop from './components/drag-drop/DragDrop';
 
 
 
@@ -80,7 +81,10 @@ function App() {
       {/* <MusicPlayer/> */}
 
       {/* BmiCalculator */}
-      <BmiCalculator/>
+      {/* <BmiCalculator/> */}
+
+      {/* Drag and Drop */}
+      <DragDrop/>
     </div>
   );
 }
