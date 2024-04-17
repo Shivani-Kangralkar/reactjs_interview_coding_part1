@@ -22,7 +22,8 @@ import './App.css';
 // import TipCalculator from './components/tip-calculator/TipCalculator';
 // import MusicPlayer from './components/music-player/MusicPlayer';
 // import BmiCalculator from './components/bmi-calculator/BmiCalculator';
-import DragDrop from './components/drag-drop/DragDrop';
+// import DragDrop from './components/drag-drop/DragDrop';
+import Debounce from './components/debounce/Debounce';
 
 
 
@@ -84,7 +85,10 @@ function App() {
       {/* <BmiCalculator/> */}
 
       {/* Drag and Drop */}
-      <DragDrop/>
+      {/* <DragDrop/> */}
+
+      {/* Debounce */}
+      <Debounce/>
     </div>
   );
 }
