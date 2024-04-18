@@ -23,7 +23,9 @@ import './App.css';
 // import MusicPlayer from './components/music-player/MusicPlayer';
 // import BmiCalculator from './components/bmi-calculator/BmiCalculator';
 // import DragDrop from './components/drag-drop/DragDrop';
-import Debounce from './components/debounce/Debounce';
+// import Debounce from './components/debounce/Debounce';
+// import Dropdown from './components/dependent-dropdown/Dropdown';
+import NestedComment from './components/nested-comment/NestedComment';
 
 
 
@@ -88,7 +90,13 @@ function App() {
       {/* <DragDrop/> */}
 
       {/* Debounce */}
-      <Debounce/>
+      {/* <Debounce/> */}
+
+      {/* Drop down */}
+      {/* <Dropdown/> */}
+
+      {/* NestedComment */}
+      <NestedComment/>
     </div>
   );
 }
